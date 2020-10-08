@@ -147,8 +147,8 @@ li{
         display: inline-block;
     }
     .cont .head .img_cont img {
-        width: 140px;
-        height: 140px;
+        width: 160px;
+        height: 160px;
     }
     .cont .head .head_details h1 {
         font-size: 25px;
@@ -157,7 +157,7 @@ li{
         width: 567px ;
     }
     .sp {
-        padding: 16px 0px 0px 184px ;
+        padding: 10px 0px 0px 184px ;
     }
     .spa {
         padding: 0px 0px 0px 203px ;
