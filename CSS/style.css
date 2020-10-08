@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: 2px solid black; */
+    border: 2px solid black;
     margin: 40px;
 }
 .cont .head{
@@ -85,7 +85,7 @@ li{
 .ft{
     font-size: 24px;
 }
-@media (max-width: 468px){
+/* @media (max-width: 468px){
     .cont{
         width: 374px;
     }
@@ -124,7 +124,7 @@ li{
     .cont{
         width: 346px;
     }
-}
+} */
 @media (max-width: 720px){
     .cont .head{
         width: 636px;
@@ -157,7 +157,7 @@ li{
 }
 @media (max-width: 480px){
     .cont .head {
-        width: 390px;
+        display: inline-block;
     }
     .cont .head .img_cont img {
         width: 130px;
@@ -167,7 +167,7 @@ li{
         font-size: 20px;
     }
     .sp {
-        padding: 24px 0px 0px 37px;
+        padding: 14px 0px 0px 37px;
     }
     .spa {
         padding: 0px 0px 0px 37px;
@@ -191,19 +191,19 @@ li{
         height: 140px;
     }
     .cont .head .head_details h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
     .cont .head {
-        width: 260px;
+        width: 580px ;
     }
     .sp {
-        padding: 24px 0px 0px 46px;
+        padding: 16px 0px 0px 184px ;
     }
     .spa {
-        padding: 0px 0px 0px 45px;
+        padding: 0px 0px 0px 203px ;
     }
     .cv_body {
-        width: 260px;
+        width: 580px;
     }
     .cv_body h1 {
         font-size: 25px;
@@ -212,8 +212,8 @@ li{
         font-size: 18px;
     }
     .cont {
-        width: 280px;
-        margin: 10px;
+        width: 598px;
+        margin: 20px;
     }
 }
 
