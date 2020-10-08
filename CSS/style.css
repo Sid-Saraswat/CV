@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Vollkorn', serif;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: 40px;
+}
+.cont .head{
+    width: 1000px;
+    /* border: 2px solid white; */
+    display: flex;
+    background-color: rgb(97, 95, 95);
+}
+.cont .head .head_details{
+    margin: 40px 0px 0px 0px;
+
+}
+.cont .head .img_cont{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont .head .img_cont img{
+    width: 200px;
+    height: 180px;
+    margin: 8px;
+    border-radius: 6px;
+}
+.sp{
+    padding: 20px 0px 0px 160px; 
+    
+    font-size: 30px;
+}
+.cont .head .head_details h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+.spa{
+    padding: 0px 0px 0px 240px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.cv_body{
+    /* border: 2px solid red; */
+    background-color: honeydew;
+    width: 1000px;
+    
+}
+.cv_body h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 192, 192);
+    margin: 20px 0px 20px 0px;
+}
+li{
+    margin: 34px;
+    font-size: 18px;
+    list-style: square;
+}
+.mar{
+    margin: 20px;
+}
+.deco{
+    text-decoration: none;
+}
+.ft{
+    font-size: 24px;
+}
+@media (max-width: 468px){
+    .cont{
+        width: 374px;
+    }
+    .cont .head{
+        width: 320px;
+    }
+    .cont .head .img_cont img {
+        width: 60px;
+        height: 60px;
+        margin: 2px;
+    }
+    .cont .head .head_details h1{
+        font-size: 17px;
+    }
+    .sp{
+        padding: 0px 0px 0px 44px;
+    }
+    .spa{
+        padding: 0px 0px 0px 52px;
+        font-size: 10px;
+    }
+    .cv_body{
+        width: 320px;
+    }
+    .cv_body h1 {
+        font-size: 20px;
+    }
+    .ft {
+        font-size: 16px;
+    }
+    .cont .head .head_details {
+        margin: 0px 0px 0px 0px;
+    }
+}
+@media (max-width: 436px){
+    .cont{
+        width: 346px;
+    }
+}
+@media (max-width: 720px){
+    .cont .head{
+        width: 636px;
+    }
+    .cont .head .img_cont img {
+        width: 160px;
+        height: 150px;
+    }
+    .cont .head .head_details {
+        margin: 0px 0px 0px 0px;
+    }
+    .cont .head .head_details h1 {
+        font-size: 34px;
+    }
+    .sp {
+        padding: 24px 0px 0px 68px;
+    }
+    .spa {
+        padding: 0px 0px 0px 138px;
+    }
+    .cv_body {
+        width: 636px;
+    }
+    .cv_body h1 {
+        font-size: 30px;
+    }
+    .ft {
+        font-size: 20px;
+    } 
+}
+@media (max-width: 480px){
+    .cont .head {
+        width: 390px;
+    }
+    .cont .head .img_cont img {
+        width: 130px;
+        height: 130px;
+    }
+    .cont .head .head_details h1 {
+        font-size: 20px;
+    }
+    .sp {
+        padding: 24px 0px 0px 37px;
+    }
+    .spa {
+        padding: 0px 0px 0px 37px;
+    }
+    .cv_body h1 {
+        font-size: 20px;
+    }
+    .cv_body {
+        width: 390px;
+    }
+    .ft {
+        font-size: 12px;
+    }
+}
+@media (max-width: 640px){
+    .cont .head {
+        display: inline-block;
+    }
+    .cont .head .img_cont img {
+        width: 140px;
+        height: 140px;
+    }
+    .cont .head .head_details h1 {
+        font-size: 20px;
+    }
+    .cont .head {
+        width: 260px;
+    }
+    .sp {
+        padding: 24px 0px 0px 46px;
+    }
+    .spa {
+        padding: 0px 0px 0px 45px;
+    }
+    .cv_body {
+        width: 260px;
+    }
+    .cv_body h1 {
+        font-size: 25px;
+    }
+    .ft {
+        font-size: 18px;
+    }
+    .cont {
+        width: 280px;
+        margin: 10px;
+    }
+}
+
